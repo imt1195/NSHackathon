@@ -142,8 +142,8 @@ endNoWayOut:
 
 interrogationRoom:
   - show interrogation:
-  - show cop: normal
-  - show brother: normal
+  - show cop: normal AT LEFT
+  - show brother: normal AT RIGHT
   - text: Both you and your brother are arrested by the police and are being interrogated. The brother is interviewd first.
   - cop says: Sir I am here to talk about these drugs you have in possession.  Mind telling me how you got them?
   - brother says: Yeah I got drugs from a local gang down the block in chambers st. 
@@ -154,6 +154,7 @@ interrogationRoom:
   - brother says: I just wanted to do this shipment, collect the money, and move on.
   - cop says: Well sir that is all the questions I have for you right now I'll be with you in a second.
   - hide brother: WITH FADE
+  - show cop: AT CENTER WITH MOVE
   - text: Now you are being interrogated by the officer.
   - cop says: So (passes down drug in a bag) care to tell me why this was nearby with your brother when we arrested you?
   - you says: I had no idea my brother did this.  I took my biology test.  I had no buniness nor the desire to do this.  I didn't do anything wrong officer.
@@ -162,7 +163,8 @@ interrogationRoom:
   - you says: Regardless, I think he can't stop now, because now if he dares leave now, the gang will sure hunt him down. I don't know what to do.
   - cop says: (sighs) Well OK then that's all I got for you wait here sir.   
   - text: The officer brings you and your brother together.
-  - show brother: normal
+  - show cop: AT LEFT WITH MOVE
+  - show brother: normal AT RIGHT WITH FADE
   - play peaceful:
   - cop says: By looking over your stories, and the evidence.  
   - cop says: Yes, you committed a crime of possessing these drugs, but I also realize this was out of your control.
