@@ -15,6 +15,14 @@
 		</style>
 		<script type="text/javascript" src="libs/phaser.min.js"></script>
 		<script type="text/javascript" src="RenJS/RenJSBootstrap.js"></script>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+                <!-- Include the jQuery library -->
+                <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+                <!-- Include the jQuery Mobile library -->
+                <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+                <link rel="stylesheet" href="Organization.css">
+                <script src="testJSfile.js"></script>
 
 		<!-- <script type="text/javascript" src="libs/underscore-min.js"></script>
 		// <script type="text/javascript" src="libs/esprima.js"></script>
@@ -40,7 +48,53 @@
 
 	<!--<body bgcolor="#000000">-->
 	<body>		
-		<div id="RenJS"> </div>
+		<div data-role="page" id="Chapter_1">
+            <div class="ProjectName">
+                <h1>Project name</h1>
+            </div>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#Chapter_1" data-transition="pop">Chapter 1</a></li>
+                    <li><a href="#Resources" data-transition="pop">Resources</a></li>
+                </ul>                    
+                    <div id="RenJS" class="ProjectContent"></div>
+            </div>
+        </div>
+        <div data-role="page" id="Resources">
+            <div class="ProjectName">
+                <h1>Project name</h1>
+            </div>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#Chapter_1" data-transition="pop">Chapter 1</a></li>
+                    <li><a href="#Resources" data-transition="pop">Resources</a></li>
+                </ul>
+                <div class="ProjectContent">
+                    <div class="left-column">
+                        <h1>Gang</h1>
+                        <h1>____________________________</h1>
+                        <a href="http://schools.nyc.gov/StudentSupport/NonAcademicSupport/GangPrevention/default.htm">
+                            NYC Gang Prevention Program
+                        </a>
+                        <p>New York City's program to help school communities with safety and gang issues</p>
+                        <h1>____________________________</h1>
+                    </div>
+                    <div class="right-column">
+                        <h1>Drugs</h1>
+                        <h1>____________________________</h1>
+                        <a href="https://www1.nyc.gov/site/doh/health/health-topics/alcohol-and-drug-use.page">
+                            NYC Drug and Alcohol use assistance programs
+                        </a>
+                        <p>New York City drug and alcohol abuse prevention and assistance programs</p>
+                        <h1>____________________________</h1>
+                        <a href="https://www.oasas.ny.gov/">
+                            NYS Office of Alcohol and Substance Abuse Services
+                        </a>
+                        <p>New York State drug abuse prevention and assistance program</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</body>
 
 </html>

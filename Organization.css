@@ -1,0 +1,33 @@
+#mycanvas{
+    height: 500px;
+    width: 400px;
+    border-style: solid;
+}
+
+.ProjectName{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ProjectContent{
+    width: 1000px;
+    height: 600px;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.left-column {
+    float: left;
+    background-color: white;
+    border-right: black 2px solid;
+    width: 49.9%;
+    height: inherit;
+}
+
+.right-column {
+    float: left;
+    background-color: white;
+    width: 49.9%;
+    height: inherit;
+}
