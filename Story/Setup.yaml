@@ -1,11 +1,9 @@
 setup:
   backgrounds:
-<<<<<<< HEAD
     bad_ending: assets/backgrounds/bad_ending.jpg
-    bedroom: assets/backgrounds/bedroom.jpg
+    bedroom1: assets/backgrounds/bedroom.jpg
     interrogation: assests/backgrounds/interrogation.jpg
     projects: assets/backgrounds/projects.jpg
-=======
     bus_station: assets/backgrounds/bus_station_afternoon.jpg
     room: assets/backgrounds/room_day.jpg
     room_night: assets/backgrounds/room_night.jpg
@@ -15,10 +13,8 @@ setup:
     street_morning: assets/backgrounds/school_front_morning.jpg
     street_afternoon: assets/backgrounds/school_front_afternoon.jpg
     store: assets/backgrounds/store.jpg
-    Livingroom:assets/backgrounds/Livingroom.jpg
-    bedroom:assets/backgrouds/very-poor-bedroom.jpg
-
->>>>>>> c2fdaae1c20219aa395dc9a091db580e950debd0
+    Livingroom: assets/backgrounds/Livingroom.jpg
+    bedroom: assets/backgrouds/very-poor-bedroom.jpg
   characters:
     big_bro:
       displayName: Big Brother
