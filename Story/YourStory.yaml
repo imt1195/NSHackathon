@@ -1,85 +1,122 @@
 
 start:
-  - play morningBGM:
-  - show school_morning: WITH FADE
-  - show deuzi: happy AT CENTER WITH FADE
-  - deuzi says: Welcome to our Tutorial Game!
-  - deuzi says: My name is Deuzilene and I'll be your guide.
-  - show deuzi: normal
-  - deuzi says: So you want to make a Visual Novel.
-  - deuzi says: With RenJS you can easily make games just like this one.
-  - deuzi says: RenJS is inspired by Ren'Py and based on PhaserJS.
-  - deuzi says: If you are familiar with any of those you have an advantage.
-  - deuzi says: And if not...
-  - show deuzi: happy
-  - deuzi says: No problem!
-  - deuzi says: RenJS is made so the text of your story is written intuitively like a script. 
-  - show deuzi: normal
-  - deuzi says: Once you learn the structure, there's no limit to what you can create.
-  - deuzi says: So let's start with...
-  - effect SHOWTITLE: 
-    title: Chapter 1
-    subtitle: The basics 
-  - deuzi says: First thing we'll check is the file structure.
-  - deuzi says: That is, all the files you need for your game to work properly.
-  - deuzi says: We'll use this game as an example.
-  - deuzi says: Have you downloaded it yet?
+  - you says: Finally finished this AP Biology test. I feel confident that it was at least a 4.
+  - you says: What a day. Exhausted. Going to bed.
+  - you says: Brother... I wonder what he is doing now?
+  - you says: Zzz...
+  - wait: 3000
+  - text: It's 6AM in the morning. Your brother enters the room while you are still asleep.
+  - text: He wakes you up from your sleep. He looks nervous.
+  - text: He extends his arm to you, in his hand is a plastic bag.
+  - brother says: Hey bro I have this small pile of weed I want you to hide. Look, I know you may think this is wrong, but I had no choice.
   - choice:
-    - I have it!:
-      - show deuzi: happy
-      - deuzi says: Great! What a hardworking student.
-    - Not yet:
-      - show deuzi: angry
-      - deuzi says: What are you waiting for!?
-      - deuzi says: Go do it, I'll wait...
-      - choice:
-        - I have it!:
-          - show deuzi: happy
-          - deuzi says: Good! Let's continue.
-  - show deuzi: normal
-  - deuzi says: Now, open the root folder of this game.
-  - deuzi says: It should look like this.
-  - show deuzi: AT LEFT WITH MOVE
-  - show folders: AT 550,300 WITH FADE
-  - deuzi says: There are four folders and a file.
-  - deuzi says: RenJS is web based, that means the game runs as a webpage.
-  - deuzi says: index.html is the page that contains this game.
-  - deuzi says: You can play the game locally by opening this file with a web browser.
-  - deuzi says: The folder named RenJS is where the engine's files are located.
-  - deuzi says: And the folder libs contains the engine's external dependencies, like PhaserJS.
-  - deuzi says: If you're making a simple game, you shouldn't worry about any of this.
-  - deuzi says: The files that concern you as a writer are inside the Story folder.
-  - deuzi says: These YAML files are what you will use to make your game.
-  - deuzi says: YAML is a human readable data serialization language.
-  - deuzi says: That means that the files contain data in a structure that you can read easily.
-  - deuzi says: And how do you open and edit them?
-  - show deuzi: happy
-  - deuzi says: With your favourite text editor!
-  - deuzi says: Mine is Sublime Text, a lightweight and multiplatform text editor.
-  - show deuzi: normal
-  - deuzi says: In any case, the most important thing about YAML files is that indentation is super important.
-  - deuzi says: If you screw up the indentation the game won't even load!
-  - show deuzi: angry
-  - deuzi says: So be very careful about it. Only two spaces per level!
-  - show deuzi: normal
-  - deuzi says: Ok, that was a lot of information, don't you think?
-  - choice:
-    - Yes, I'm already tired:
-      - show deuzi: happy
-      - deuzi says: I was hoping you'd say that!
-      - deuzi says: You can save from the quick menu here on the side and return later!
-    - No, I want to know more:
-      - show deuzi: happy
-      - deuzi says: I knew it!
-      - deuzi says: I have a feeling you're not stopping until you write your first story
-      - deuzi says: Isn't that exciting?
-  - show deuzi: normal
-  - deuzi says: All right, I'm going to take a break anyways.
-  - deuzi says: But I'm leaving you in good hands.
-  - show deuzi: happy
-  - deuzi says: Good luck!
-  - hide deuzi: WITH FADE
-  - scene: storySetup
+    - Okay man I'll help you out. : 
+      - you says: Don't make me regret this.
+      - var option1: true
+    - I want nothing with your drug business.:
+      - you says: Hide it yourself.
+      - var option1: false
+  - if ({option1}):
+    - text: Where do you hide the drug?
+    - choice:
+      - Under the sofa cushion:
+        - you says: The sofa is a good spot due to its size.
+        - var option2: 1
+      - In the water compartment of the toilet:
+        - you says: Yuck...... disgusting spot, but it will be hard to find.
+        - var option2: 2
+      - Between the back of the wardrobe and the wall:
+        - you says: Inside a wall...... jeez I hope to god this doesn't go wrong.
+        - var option2: 3
+  - else:
+    - text: Your brother went to hide the drug. It doesn't look like he has enough energy to hide it properly.
+    - var option2: 1
+  - scene: livingroomEightAM
+
+livingroomEightAM:
+  - text: After a weird morning.
+
+# start:
+#   - play morningBGM:
+#   - show school_morning: WITH FADE
+#   - show deuzi: happy AT CENTER WITH FADE
+#   - deuzi says: Welcome to our Tutorial Game!
+#   - deuzi says: My name is Deuzilene and I'll be your guide.
+#   - show deuzi: normal
+#   - deuzi says: So you want to make a Visual Novel.
+#   - deuzi says: With RenJS you can easily make games just like this one.
+#   - deuzi says: RenJS is inspired by Ren'Py and based on PhaserJS.
+#   - deuzi says: If you are familiar with any of those you have an advantage.
+#   - deuzi says: And if not...
+#   - show deuzi: happy
+#   - deuzi says: No problem!
+#   - deuzi says: RenJS is made so the text of your story is written intuitively like a script. 
+#   - show deuzi: normal
+#   - deuzi says: Once you learn the structure, there's no limit to what you can create.
+#   - deuzi says: So let's start with...
+#   - effect SHOWTITLE: 
+#     title: Chapter 1
+#     subtitle: The basics 
+#   - deuzi says: First thing we'll check is the file structure.
+#   - deuzi says: That is, all the files you need for your game to work properly.
+#   - deuzi says: We'll use this game as an example.
+#   - deuzi says: Have you downloaded it yet?
+#   - choice:
+#     - I have it!:
+#       - show deuzi: happy
+#       - deuzi says: Great! What a hardworking student.
+#     - Not yet:
+#       - show deuzi: angry
+#       - deuzi says: What are you waiting for!?
+#       - deuzi says: Go do it, I'll wait...
+#       - choice:
+#         - I have it!:
+#           - show deuzi: happy
+#           - deuzi says: Good! Let's continue.
+#   - show deuzi: normal
+#   - deuzi says: Now, open the root folder of this game.
+#   - deuzi says: It should look like this.
+#   - show deuzi: AT LEFT WITH MOVE
+#   - show folders: AT 550,300 WITH FADE
+#   - deuzi says: There are four folders and a file.
+#   - deuzi says: RenJS is web based, that means the game runs as a webpage.
+#   - deuzi says: index.html is the page that contains this game.
+#   - deuzi says: You can play the game locally by opening this file with a web browser.
+#   - deuzi says: The folder named RenJS is where the engine's files are located.
+#   - deuzi says: And the folder libs contains the engine's external dependencies, like PhaserJS.
+#   - deuzi says: If you're making a simple game, you shouldn't worry about any of this.
+#   - deuzi says: The files that concern you as a writer are inside the Story folder.
+#   - deuzi says: These YAML files are what you will use to make your game.
+#   - deuzi says: YAML is a human readable data serialization language.
+#   - deuzi says: That means that the files contain data in a structure that you can read easily.
+#   - deuzi says: And how do you open and edit them?
+#   - show deuzi: happy
+#   - deuzi says: With your favourite text editor!
+#   - deuzi says: Mine is Sublime Text, a lightweight and multiplatform text editor.
+#   - show deuzi: normal
+#   - deuzi says: In any case, the most important thing about YAML files is that indentation is super important.
+#   - deuzi says: If you screw up the indentation the game won't even load!
+#   - show deuzi: angry
+#   - deuzi says: So be very careful about it. Only two spaces per level!
+#   - show deuzi: normal
+#   - deuzi says: Ok, that was a lot of information, don't you think?
+#   - choice:
+#     - Yes, I'm already tired:
+#       - show deuzi: happy
+#       - deuzi says: I was hoping you'd say that!
+#       - deuzi says: You can save from the quick menu here on the side and return later!
+#     - No, I want to know more:
+#       - show deuzi: happy
+#       - deuzi says: I knew it!
+#       - deuzi says: I have a feeling you're not stopping until you write your first story
+#       - deuzi says: Isn't that exciting?
+#   - show deuzi: normal
+#   - deuzi says: All right, I'm going to take a break anyways.
+#   - deuzi says: But I'm leaving you in good hands.
+#   - show deuzi: happy
+#   - deuzi says: Good luck!
+#   - hide deuzi: WITH FADE
+#   - scene: storySetup 
 
 storySetup:
   - show school_morning:

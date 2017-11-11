@@ -16,8 +16,14 @@ setup:
     Livingroom: assets/backgrounds/Livingroom.jpg
     bedroom: assets/backgrouds/very-poor-bedroom.jpg
   characters:
-    big_bro:
-      displayName: Marcus
+    brother:
+      displayName: Brother
+      speechColour: "#000000"
+    you:
+      displayName: You
+      speechColour: "#000000"
+    deuzi:
+      displayName: Deuzilene
       speechColour: "#ca90cf"
       looks:
         normal: assets/characters/brother.png

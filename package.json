@@ -1,0 +1,29 @@
+{
+  "name": "nshackathon",
+  "version": "0.1.0",
+  "description": "NSHackathon: gang awareness & prevention awareness game",
+  "main": "npm start",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imt1195/NSHackathon.git"
+  },
+  "keywords": [
+    "gang",
+    "social",
+    "RenJS",
+    "game"
+  ],
+  "author": "diverse-things",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imt1195/NSHackathon/issues"
+  },
+  "homepage": "https://github.com/imt1195/NSHackathon#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
