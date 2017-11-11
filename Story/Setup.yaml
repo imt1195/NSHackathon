@@ -17,7 +17,7 @@ setup:
     bedroom: assets/backgrouds/very-poor-bedroom.jpg
   characters:
     big_bro:
-      displayName: Big Brother
+      displayName: Marcus
       speechColour: "#ca90cf"
       looks:
         normal: assets/characters/brother.png
@@ -27,7 +27,7 @@ setup:
         happyC: assets/characters/Char3Happy.png
         angryC: assets/characters/Char3Angry.png
     cop:
-      displayName: Cop
+      displayName: Martinez
       speechColour: "#d5e6e7"
       looks:
         normal: assets/characters/female_cop.png
