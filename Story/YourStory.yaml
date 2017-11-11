@@ -1,14 +1,21 @@
 
 start:
+  - show livingroom:
+  - play peaceful:
   - you says: Finally finished this AP Biology test. I feel confident that it was at least a 4.
   - you says: What a day. Exhausted. Going to bed.
   - you says: Brother... I wonder what he is doing now?
   - you says: Zzz...
+  - hide livingroom: WITH FADE
   - wait: 3000
+  - show livingroom:
   - text: It's 6AM in the morning. Your brother enters the room while you are still asleep.
+  - show brother: normal
+  - play intense:
   - text: He wakes you up from your sleep. He looks nervous.
   - text: He extends his arm to you, in his hand is a plastic bag.
-  - brother says: Hey bro I have this small pile of weed I want you to hide. Look, I know you may think this is wrong, but I had no choice.
+  - brother says: Hey bro I have this small pile of weed I want you to hide. 
+  - brother says: Look, I know you may think this is wrong, but I had no choice.
   - choice:
     - Okay man I'll help you out. : 
       - you says: Don't make me regret this.
@@ -34,7 +41,145 @@ start:
   - scene: livingroomEightAM
 
 livingroomEightAM:
-  - text: After a weird morning.
+  - play peaceful:
+  - text: After a shocking morning, you decide to persist to the school.
+  - you says: I hope my brother is alright...
+  - hide livingroom: WITH FADE
+  - wait: 3000
+  - show livingroom:
+  - text: After a day of school, you return to your home.
+  - if ({option2} == 1):
+    - scene: policeRaid
+  - if ({option2} == 2):
+    - scene: endAmbushed
+  - if ({option2} == 3):
+    - scene: endAnotherDeathCount
+
+policeRaid:
+  - play intense:
+  - text: Only to find it surrounded by police.
+  - scene: interrogationRoom
+
+endAmbushed:
+  - show livingroom:
+  - play peaceful:
+  - text: You enter the house, finding your brother just getting up from his sleep.
+  - show brother: normal
+  - brother says: Thank you man, that spot was smart but now I'm off .. the last time I hopefully sell dope.
+  - text: Your glance caught your brother going into the bathroom as you set up your desk.
+  - you says: Just get rid of the damn thing man, and don't be so implusive next time.
+  - hide brother: WITH FADE
+  - play gunshotSFX:
+  - text: You hear a gunshot right outside of the door. You reflexively take cover.
+  - you says: Oh crap!
+  - text: Not knowing who are out there, you are too afraid to open the door.
+  - text: When you finally recover from the shock, you finally walk to the door.
+  - text: You open the door, and see your brother on the floor, his blood soaking his clothes.
+  - you says: Bro...... Jesus Christ NOOOOO!
+  - effect SHOWTITLE:
+    endGame: true
+    title: "Ending: Ambushed"
+
+endAnotherDeathCount:
+  - show livingroom:
+  - play intense:
+  - text: You enter the house. Several strangers are standing in the living room.
+  - text: Your brother is on the ground, his face bleeding.
+  - rivalgang says: Well well lookie here man, it's your mini me!
+  - you says: What do you want from us?
+  - rivalgang says: Simple the dude. We told the dude on the ground to sell like he was self tell us where the drug is boy.
+  - rivalgang says: Where is the drug?
+  - choice:
+    - Tell them:
+      - scene: endNoWayOut
+    - Stay silent:
+      - effect SHAKE:
+      - rivalgang says: Whe-re i-s th-e dru-g?
+      - choice:
+        - Tell them:
+          - scene: endNoWayOut
+        - Stay silent:
+          - effect SHAKE:
+          - rivalgang says: WHE-RE I-S TH-E DRU-G?
+          - choice:
+            - Tell them:
+              - scene: endNoWayOut
+            - Stay silent:
+              - rivalgang says: F**k both of you.
+              - play gunshotSFX:
+              - text: One of the rival gang members pulls out a handgun and shoots your brother and you.
+              - text: They left as you are bleeding to the inevitable death.
+              - effect SHOWTITLE:
+                endGame: true
+                title: | 
+                        Ending:
+                        Another Death Count
+
+endNoWayOut:
+  - show projects:
+  - play intense:
+  - effect SHAKE:
+  - rivalgang says: You bastard is not bad at hiding stuff!
+  - effect SHAKE:
+  - rivalgang says: F**k you!
+  - effect SHAKE:
+  - rivalgang says: Whatever you can die here let's go.
+  - effect SHAKE:
+  - play peaceful:
+  - text: Fortunately the beating is not enough to kill your brother or you.
+  - text: Facing such provocation, your brother's gang decides to wage war against its rival.
+  - text: Your brother is sent. He comes back, but with a shot on the leg. He loses the leg.
+  - text: With no other choice in sight, you step into where your brother belonged.
+  - play intense:
+  - show bad_ending:
+  - gang says: Welcome to hell my friend! 
+  - gang says: You might not have wanted to do this but now you have no choice. 
+  - gang says: Now don't cry and give me a good time now.
+  - gang says: You don't want your brother to have another fall in the hospital don't you?
+  - effect SHOWTITLE:
+    endGame: true
+    title: "Ending: No Way Out"
+
+interrogationRoom:
+  - show interrogation:
+  - show cop: normal
+  - show brother: normal
+  - text: Both you and your brother are arrested by the police and are being interrogated. The brother is interviewd first.
+  - cop says: Sir I am here to talk about these drugs you have in possession.  Mind telling me how you got them?
+  - brother says: Yeah I got drugs from a local gang down the block in chambers st. 
+  - brother says: There isn't much for me outside in the streets all I can do is try to get money to surivive for me and my family.
+  - cop says: How do I know you are telling me the truth sir? You could be lying for all I know.
+  - brother says: I know you will most likely not believe me, but I'm at the point of no return. 
+  - brother says: If I drop out of this, the gang will hunt me and my brother down.
+  - brother says: I just wanted to do this shipment, collect the money, and move on.
+  - cop says: Well sir that is all the questions I have for you right now I'll be with you in a second.
+  - hide brother: WITH FADE
+  - text: Now you are being interrogated by the officer.
+  - cop says: So (passes down drug in a bag) care to tell me why this was nearby with your brother when we arrested you?
+  - you says: I had no idea my brother did this.  I took my biology test.  I had no buniness nor the desire to do this.  I didn't do anything wrong officer.
+  - cop says: Really now?  I just talked to your brother, and he told me you were in charge of everything, and your little test was nothing, but a false alibi.
+  - you says: NO! Im telling you! I just finished my test, and headed back home to sleep. I'm sure my brother has a good reason for doing this.
+  - you says: Regardless, I think he can't stop now, because now if he dares leave now, the gang will sure hunt him down. I don't know what to do.
+  - cop says: (sighs) Well OK then that's all I got for you wait here sir.   
+  - text: The officer brings you and your brother together.
+  - show brother: normal
+  - play peaceful:
+  - cop says: By looking over your stories, and the evidence.  
+  - cop says: Yes, you committed a crime of possessing these drugs, but I also realize this was out of your control.
+  - cop says: So first things first. Despite the charges committed against you, we shall put you under protective custody until this issue dies out.
+  - cop says: Then afterwards hopefully put your brother in a gang intervation program to stop this downward cycle.  
+  - cop says: I lost my son to gang violence, and I don't want to see you both die over nothing.
+  - cop says: I know you were forced son, but here I'll do my best to help you in this situation. 
+  - brother says: Thank you officer!
+  - you says: Thank you officer!
+  - brother says: Whatever punishment is laid out I'll accept it. As long my family is protected, I don't care what happens to me.
+  - text: You and your brother remain in jail for another 2 months until the trial to where your brother was found guilty of drug procession.
+  - text: But instead of being sentenced to jail he is sent to probation, and referred to a gang interventionist.
+  - effect SHOWTITLE:
+    title: "Ending: Faint Hope"
+  
+
+
 
 # start:
 #   - play morningBGM:

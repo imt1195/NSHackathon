@@ -2,7 +2,7 @@ setup:
   backgrounds:
     bad_ending: assets/backgrounds/bad_ending.jpg
     bedroom1: assets/backgrounds/bedroom.jpg
-    interrogation: assests/backgrounds/interrogation.jpg
+    interrogation: assets/backgrounds/interrogation.jpg
     projects: assets/backgrounds/projects.jpg
     bus_station: assets/backgrounds/bus_station_afternoon.jpg
     room: assets/backgrounds/room_day.jpg
@@ -13,15 +13,23 @@ setup:
     street_morning: assets/backgrounds/school_front_morning.jpg
     street_afternoon: assets/backgrounds/school_front_afternoon.jpg
     store: assets/backgrounds/store.jpg
-    Livingroom: assets/backgrounds/Livingroom.jpg
+    livingroom: assets/backgrounds/Livingroom.jpg
     bedroom: assets/backgrouds/very-poor-bedroom.jpg
     mainScreen: assets/backgrounds/mainScreen.jpg
   characters:
     brother:
       displayName: Brother
       speechColour: "#000000"
+      looks:
+        normal: assets/characters/brother.png
     you:
       displayName: You
+      speechColour: "#000000"
+    rivalgang:
+      displayName: Rival Gang Member
+      speechColour: "#000000"
+    gang:
+      displayName: Brother's Gang
       speechColour: "#000000"
     deuzi:
       displayName: Deuzilene
@@ -34,7 +42,7 @@ setup:
         happyC: assets/characters/Char3Happy.png
         angryC: assets/characters/Char3Angry.png
     cop:
-      displayName: Martinez
+      displayName: Officer
       speechColour: "#d5e6e7"
       looks:
         normal: assets/characters/female_cop.png
@@ -101,10 +109,13 @@ setup:
     storeBGM: assets/audio/Evan_Schaeffer_-_18_-_Big_Tree.mp3
     cicadas: assets/audio/Cicada.mp3
     rain: assets/audio/Rain.mp3
+    peaceful: assets/audio/peaceful_bgm_yuri_on_ice.mp3
+    intense: assets/audio/intense_bgm.mp3
   sfx:
     ringtoneSFX: assets/audio/nokia6210-24-elise.mp3
     ringtoneSFX2: assets/audio/alcatel-top_secret.mp3
     thunderSFX: assets/audio/thunder_strike_1.mp3
+    gunshotSFX: assets/audio/three_shots_from_22_caliber_pistol.mp3
   extra:
     image:
       title: assets/gui/titles.png
