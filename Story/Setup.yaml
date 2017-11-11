@@ -9,6 +9,9 @@ setup:
     street_morning: assets/backgrounds/school_front_morning.jpg
     street_afternoon: assets/backgrounds/school_front_afternoon.jpg
     store: assets/backgrounds/store.jpg
+    Livingroom:assets/backgrounds/Livingroom.jpg
+    bedroom:assets/backgrouds/very-poor-bedroom.jpg
+
   characters:
     big_bro:
       displayName: Big Brother
