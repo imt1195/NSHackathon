@@ -1,14 +1,9 @@
 setup:
   backgrounds:
-    bus_station: assets/backgrounds/bus_station_afternoon.jpg
-    room: assets/backgrounds/room_day.jpg
-    room_night: assets/backgrounds/room_night.jpg
-    room_night_light: assets/backgrounds/room_night_light.jpg
-    school_morning: assets/backgrounds/school_corridor.jpg
-    school_afternoon: assets/backgrounds/school_corridor_afternoon.jpg
-    street_morning: assets/backgrounds/school_front_morning.jpg
-    street_afternoon: assets/backgrounds/school_front_afternoon.jpg
-    store: assets/backgrounds/store.jpg
+    bad_ending: assets/backgrounds/bad_ending.jpg
+    bedroom: assets/backgrounds/bedroom.jpg
+    interrogation: assests/backgrounds/interrogation.jpg
+    projects: assets/backgrounds/projects.jpg
   characters:
     big_bro:
       displayName: Big Brother
