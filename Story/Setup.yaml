@@ -15,6 +15,7 @@ setup:
     store: assets/backgrounds/store.jpg
     Livingroom: assets/backgrounds/Livingroom.jpg
     bedroom: assets/backgrouds/very-poor-bedroom.jpg
+    mainScreen: assets/backgrounds/mainScreen.jpg
   characters:
     brother:
       displayName: Brother
