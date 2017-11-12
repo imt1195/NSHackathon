@@ -1,0 +1,150 @@
+Character Background
+------------------------------------
+-Family Lives in Projects
+-Brother (Age 23)
+	-Legal Guardian
+	-Once a good student (really smart)
+	-Lokey Drug dealer 
+  -Involved in gang
+-You (Age 18)
+	-In a fucked position(You)
+  -Good Student
+  -Hard Worker
+  -Late High School
+  
+
+Things happened before First Scene
+------------------------------------
+The day before, you took the AP Bio test.
+
+The night before, the brother received a batch of drug from his gang. He was instructed to sell it. 
+He did not sell all of it during the night before. Therefore, he returned home with it in the morning at 6am.
+He wanted to hide it in the house and continue selling it the next night.
+Tired, he decides to ask his little brother to hide the drug.
+
+
+
+
+
+-Sells drugs in rival gang's territory
+Little did he know, he inadvertently wandered into the territory of a rival gang. 
+The rival gang decided to "teach him a lesson".
+
+
+First Scene: Bedroom 6AM
+------------------------
+The brother enters the room. He wakes you up from your sleep. He looks nervous.
+He extends his arm to you, in his hand is a plastic bag: 
+Brother: Hey bro i have this small pile of weed i want you to hide. Look i know you may think its wrong to do  but i had no choice.
+
+You: What the hell man why you bothering with gangs man?
+Brother i had no choice its either i do this or i leave them and they hunt me like a dog and kill me
+
+
+    
+Option 1: 
+- (Yes) "Okay man ill help you out dont make me regret this"
+- (No) "I want nothing with your drug business. Hide it yourself."
+
+If Option 1 is Yes:
+Where do you hide the drug?
+
+
+
+Option 2:
+- (Under the sofa cushion) you: the sofa is a good spot due to its size
+- (In the water compartment of the toilet) you; : yuck.......... disgusting spot but that it will be hard to find
+- (Between the back of the wardrobe and the wall)  you: inside a wall.... jeez i hope to god this doesnt go wrong
+
+If Option 1 is No:
+Set Option 2 to (Under the sofa cushion)
+
+Second Scene: Living room 8AM
+-----------------------------
+
+If Option 2 is (Under the sofa cushion):
+You go to school. The neighbour calls the police. 
+Police comes and raids the house, finding the drug under the sofa cushion. The brother is arrested.
+You come back to a house guarded by the police. The police arrest you.
+** Going into Third Scene **
+
+If Option 2 is (In the water compartment of the toilet):
+The day passed normally. The brother takes a good rest. You go to school.
+When the night falls, the brother takes the drug out for sale. He steps outside the door and closes it.
+But the rival gang members are waiting for him. He takes a number of bullets in his chest. You take cover in the room.
+The rival gang members took the drug from the brother's body and left. You are in shock.
+
+
+Brother: thank you man tat spot was smart but now im off .. the last time i hopefully sell dope
+you; just get rid of the damn thing man and dont be so implusive next time
+you: oh crap!
+you: Bro......jesus chirst noooo!.
+
+** Ending: Ambushed **
+
+If Option 2 is (Between the back of the wardrobe and the wall)
+You go to school. The rival gang comes to the house.
+The rival gang breaks into the house and trashes it. They do not find the drug. They beat the brother up.
+You come back to a quiet house. Upon entering, you are confronted by the rival gang members.
+The rival gang members have taken the brother hostage. They ask you where the drug is.
+gang member: well well lookie here man its your mini me
+you: what do u want from us
+gang member: Simple the dude. We told the dude on the ground to sell like he was self tell us whre the drug us boy.
+
+Option 3:
+- (Tell the rival gang members where the drug is) you: here it is now leave us alone
+- (Stay silent)
+
+If Option 3 is (Tell the rival gang members where the drug is):
+The rival gang members take the drug and beat you up anyway. They leave the brother and you wounded in the house.
+The brother's gang decides to go to war with the rival gang, sending the brother into the battle.
+The brother is shot in the battle and loses a leg.
+To take care of the brother, and to relieve the burden of medical costs, you are forced to join the gang.
+gangmember:welcome to hell my friend you might not have wanted to do this but now you have no choice now dont cry and give me a good time now
+gang member: you dont want your brother to have another fall in the hospitol dont you?
+** Ending: No way out **
+
+If Option 3 is (Stay silent):
+The rival gang members beat you up.
+(Repeat Option 3)
+
+If Option 3 is (Stay silent) 3 times:
+The rival gang members kill your brother and you.
+** Ending: Another death count **
+
+
+Third Scene: Interrogation room 5PM
+-----------------------------------
+
+
+    Both you and your brother are arrested by the police and are being interrogated. The brother is interviewd first.
+    
+  Officer: Yes sir(brother) I am here to talk about these drugs you have in possession.  Mind telling me how you got them?
+  Brother: Yeah I got drugs from a local gang down the block in chambers st. There isn't much for me outside in the streets all I can do is try to get money to surivive for me and my family.
+  Officer: How do I know you are telling me the truth sir? You could be lying for all I know.
+  Brother: I know you will most likely not believe me, but I'm at the point of no return.  If I drop out of this, the gang will hunt me and my brother down.  I just wanted to do this shipment, collect the money, and move on.
+  Officer: Well sir that is all the questions I have for you right now I'll be with you in a second.
+  
+  	Now you are being interrogated by the officer 6:32pm
+    
+    
+    Officer: So (passes down drug in a bag) care to tell me why this was nearby with your brother when we arrested you?
+    You: I had no idea my brother did this.  I took my biology test.  I had no buniness nor the desire to do this.  I didn't do anything wrong officer.
+    Officer: Really now?  I just talked to your brother, and he told me you were in charge of everything, and your little test was nothing, but a false alibi.
+    You: NO! Im telling you! I just finished my test, and headed back home to sleep. I'm sure my brother has a good reason for doing this.
+    You: Regardless, I think he can't stop now, because now if he dares leave now, the gang will sure hunt him down. I don't know what to do.
+    Officer: *sighs Well OK then that's all I got for you wait here sir.
+    
+    The officer brings you and your brother together 8:@5pm
+    
+    
+    
+  Officer: By looking over your stories, and the evidence.  Yes, you committed a crime of possessing these drugs, but I also realize this was out of your control.
+  Officer: So first things first. Despite the charges committed against you, we shall put you under protective custody until this issue dies out.
+  Officer: Then afterwards hopefully put your brother in a gang intervation program to stop this downward cycle.  I lost my son to gang violence, and I don't want to see you both die over nothing.
+  Officer: I know you were forced son, but here I'll do my best to help you in this situation. 
+  Brother and you: Thank you officer!
+  Brother: Whatever punishment is laid out I'll accept it. As long my family is protected, I don't care what happens to me.
+  
+  	You and your borhter remain in jail for another 2 months until the trial to where your brother was found guilty of drug procession, but instead of being sentenced to jail
+    he is sent to probation, and referred in a gang interventaist.
