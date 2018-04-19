@@ -1,7 +1,7 @@
 # NSHackathon
 Project for the 2017 NS hackathon at Lehman college
 
-##Play the game here
+## Play the game here
 https://imt1195.github.io/NSHackathon/
 
 ## Usage
